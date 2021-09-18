@@ -189,6 +189,9 @@ public class AlMCC extends javax.swing.JFrame implements WindowListener {
             }
         });
 
+        jTextField1.setEditable(false);
+
+        jEditorPane1.setEditable(false);
         jScrollPane1.setViewportView(jEditorPane1);
 
         jButton3.setText("copy");
